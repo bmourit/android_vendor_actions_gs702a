@@ -19,7 +19,7 @@ PRODUCT_COPY_FILES += \
   vendor/actions/gs702a/proprietary/bin/applypatch:system/bin/applypatch \
   vendor/actions/gs702a/proprietary/bin/pfmnceserver:system/bin/pfmnceserver \
   vendor/actions/gs702a/proprietary/bin/recovery:system/bin/recovery \
-  vendor/actions/gs702a/proprietary/bin/dosfslable:system/bin/dosfslable \
+  vendor/actions/gs702a/proprietary/bin/dosfslabel:system/bin/dosfslabel \
   vendor/actions/gs702a/proprietary/bin/bugreport:system/bin/bugreport \
   vendor/actions/gs702a/proprietary/bin/usbmond:system/bin/usbmond \
   vendor/actions/gs702a/proprietary/bin/rild:system/bin/rild \
