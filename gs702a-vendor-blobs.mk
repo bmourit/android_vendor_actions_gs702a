@@ -36,18 +36,13 @@ PRODUCT_COPY_FILES += \
   vendor/actions/gs702a/proprietary/bin/fsck_msdos:system/bin/fsck_msdos \
   vendor/actions/gs702a/proprietary/bin/hostapd:system/bin/hostapd \
   vendor/actions/gs702a/proprietary/bin/hostapd_cli:system/bin/hostapd_cli\
-  vendor/actions/gs702a/proprietary/bin/pfmnceserver:system/bin/pfmnceserver \
+  vendor/actions/gs702a/proprietary/bin/qemu-props:system/bin/qemu-props \
+  vendor/actions/gs702a/proprietary/bin/qemud:system/bin/qemud \
   vendor/actions/gs702a/proprietary/bin/rild:system/bin/rild \
   vendor/actions/gs702a/proprietary/bin/usbmond:system/bin/usbmond \
   vendor/actions/gs702a/proprietary/bin/vold:system/bin/vold \
-  vendor/actions/gs702a/proprietary/bin/wpa_supplicant:system/bin/wpa_supplicant \
-  vendor/actions/gs702a/proprietary/bin/make_ext4fs:system/bin/make_ext4fs \
-  vendor/actions/gs702a/proprietary/bin/run-as:system/bin/run-as \
-  vendor/actions/gs702a/proprietary/bin/sdcard:system/bin/sdcard \
-  vendor/actions/gs702a/proprietary/bin/stagefright:system/bin/stagefright \
-  vendor/actions/gs702a/proprietary/bin/toolbox:system/bin/toolbox \
-  vendor/actions/gs702a/proprietary/bin/wfd:system/bin/wfd \
   vendor/actions/gs702a/proprietary/bin/wpa_cli:system/bin/wpa_cli \
+  vendor/actions/gs702a/proprietary/bin/wpa_supplicant:system/bin/wpa_supplicant \
   vendor/actions/gs702a/proprietary/app/ActSensorCalib.apk:system/app/ActSensorCalib.apk \
   vendor/actions/gs702a/proprietary/app/AdobeFlashPlayer.apk:system/app/AdobeFlashPlayer.apk \
   vendor/actions/gs702a/proprietary/app/DLNA.apk:system/app/DLNA.apk\
