@@ -26,14 +26,14 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,vendor/actions/gs702a/proprietary/plugins,system/lib/plugins)
 
-PRODUCT_COPY_FILES += \
-    $(call find-copy-subdir-files,*,vendor/actions/gs702a/proprietary/soundfx,system/lib/soundfx)
+#PRODUCT_COPY_FILES += \
+    #$(call find-copy-subdir-files,*,vendor/actions/gs702a/proprietary/soundfx,system/lib/soundfx)
 
 PRODUCT_COPY_FILES += \
-  vendor/actions/gs702a/proprietary/bin/applypatch:system/bin/applypatch \
-  vendor/actions/gs702a/proprietary/bin/bugreport:system/bin/bugreport \
+  #vendor/actions/gs702a/proprietary/bin/applypatch:system/bin/applypatch \
+  #vendor/actions/gs702a/proprietary/bin/bugreport:system/bin/bugreport \
   vendor/actions/gs702a/proprietary/bin/dosfslabel:system/bin/dosfslabel \
-  vendor/actions/gs702a/proprietary/bin/fsck_msdos:system/bin/fsck_msdos \
+  #vendor/actions/gs702a/proprietary/bin/fsck_msdos:system/bin/fsck_msdos \
   vendor/actions/gs702a/proprietary/bin/hostapd:system/bin/hostapd \
   vendor/actions/gs702a/proprietary/bin/hostapd_cli:system/bin/hostapd_cli\
   vendor/actions/gs702a/proprietary/bin/qemu-props:system/bin/qemu-props \
