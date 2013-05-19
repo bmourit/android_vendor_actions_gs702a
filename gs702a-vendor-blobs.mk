@@ -122,7 +122,7 @@ PRODUCT_COPY_FILES += \
    vendor/actions/gs702a/proprietary/lib/libACT_V4L2HAL.so:system/lib/libACT_V4L2HAL.so \
    vendor/actions/gs702a/proprietary/lib/libactions_runtime.so:system/lib/libactions_runtime.so \
    vendor/actions/gs702a/proprietary/lib/libactions-ril.so:system/lib/libactions-ril.so \
-   vendor/actions/gs702a/proprietary/lib/libalc.so:system/lib/libalc.so \
+   #vendor/actions/gs702a/proprietary/lib/libalc.so:system/lib/libalc.so \
    #vendor/actions/gs702a/proprietary/lib/libaudioeffect_jni.so:system/lib/libaudioeffect_jni.so \
    vendor/actions/gs702a/proprietary/lib/libaudioflinger.so:system/lib/libaudioflinger.so \
    #vendor/actions/gs702a/proprietary/lib/libaudioutils.so:system/lib/libaudioutils.so \
@@ -134,7 +134,7 @@ PRODUCT_COPY_FILES += \
    #vendor/actions/gs702a/proprietary/lib/libemoji.so:system/lib/libemoji.so \
    #vendor/actions/gs702a/proprietary/lib/libffmpeg_wrapper.so:system/lib/libffmpeg_wrapper.so \
    #vendor/actions/gs702a/proprietary/lib/libflint_engine_jni_api.so:system/lib/libflint_engine_jni_api.so \
-   vendor/actions/gs702a/proprietary/lib/libGAL.so:system/lib/libGAL.so \
+   #vendor/actions/gs702a/proprietary/lib/libGAL.so:system/lib/libGAL.so \
    vendor/actions/gs702a/proprietary/lib/libGLSLC.so:system/lib/libGLSLC.so \
    #vendor/actions/gs702a/proprietary/lib/libgoogle_recognizer_jni.so:system/lib/libgoogle_recognizer_jni.so \
    vendor/actions/gs702a/proprietary/lib/libion.so:system/lib/libion.so \
