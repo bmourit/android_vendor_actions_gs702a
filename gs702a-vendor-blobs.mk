@@ -26,11 +26,16 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
   vendor/actions/gs702a/proprietary/bin/qemu-props:system/bin/qemu-props \
   vendor/actions/gs702a/proprietary/bin/qemud:system/bin/qemud \
-  vendor/actions/gs702a/proprietary/bin/usbmond:system/bin/usbmond \
   vendor/actions/gs702a/proprietary/bin/dosfslabel:system/bin/dosfslabel \
   vendor/actions/gs702a/proprietary/bin/fsck_msdos:system/bin/fsck_msdos \
+  vendor/actions/gs702a/proprietary/bin/hostapd:system/bin/hostapd \
+  vendor/actions/gs702a/proprietary/bin/hostapd_cli:system/bin/hostapd_cli \
   vendor/actions/gs702a/proprietary/bin/pfmnceserver:system/bin/pfmnceserver \
+  vendor/actions/gs702a/proprietary/bin/surfaceflinger:system/bin/surfaceflinger \
+  vendor/actions/gs702a/proprietary/bin/stagefright:system/bin/stagefright \
   vendor/actions/gs702a/proprietary/bin/rild:system/bin/rild \
+  vendor/actions/gs702a/proprietary/bin/vold:system/bin/vold \
+  vendor/actions/gs702a/proprietary/bin/vdc:system/bin/vdc \
   vendor/actions/gs702a/proprietary/bin/updater:system/bin/updater \
   vendor/actions/gs702a/proprietary/xbin/e2fsck:system/xbin/e2fsck \
   vendor/actions/gs702a/proprietary/xbin/iostat:system/xbin/iostat \
