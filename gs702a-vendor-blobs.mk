@@ -37,9 +37,13 @@ PRODUCT_COPY_FILES += \
   vendor/actions/gs702a/proprietary/bin/vold:system/bin/vold \
   vendor/actions/gs702a/proprietary/bin/vdc:system/bin/vdc \
   vendor/actions/gs702a/proprietary/bin/updater:system/bin/updater \
+  vendor/actions/gs702a/proprietary/bin/applypatch:system/bin/applypatch \
   vendor/actions/gs702a/proprietary/xbin/e2fsck:system/xbin/e2fsck \
   vendor/actions/gs702a/proprietary/xbin/iostat:system/xbin/iostat \
   vendor/actions/gs702a/proprietary/xbin/mke2fs:system/xbin/mke2fs \
+  vendor/actions/gs702a/proprietary/xbin/netperf:system/xbin/netperf \
+  vendor/actions/gs702a/proprietary/xbin/netserver:system/xbin/netserver \
+  vendor/actions/gs702a/proprietary/xbin/tcpdump:system/xbin/tcpdump \
   vendor/actions/gs702a/proprietary/xbin/usb_modeswitch:system/xbin/usb_modeswitch \
   vendor/actions/gs702a/proprietary/app/ActSensorCalib.apk:system/app/ActSensorCalib.apk \
   vendor/actions/gs702a/proprietary/app/AdobeFlashPlayer.apk:system/app/AdobeFlashPlayer.apk \
