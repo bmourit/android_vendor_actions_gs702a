@@ -31,13 +31,10 @@ PRODUCT_COPY_FILES += \
   vendor/actions/gs702a/proprietary/bin/hostapd:system/bin/hostapd \
   vendor/actions/gs702a/proprietary/bin/hostapd_cli:system/bin/hostapd_cli \
   vendor/actions/gs702a/proprietary/bin/pfmnceserver:system/bin/pfmnceserver \
-  vendor/actions/gs702a/proprietary/bin/surfaceflinger:system/bin/surfaceflinger \
   vendor/actions/gs702a/proprietary/bin/stagefright:system/bin/stagefright \
   vendor/actions/gs702a/proprietary/bin/rild:system/bin/rild \
   vendor/actions/gs702a/proprietary/bin/vold:system/bin/vold \
   vendor/actions/gs702a/proprietary/bin/vdc:system/bin/vdc \
-  vendor/actions/gs702a/proprietary/bin/updater:system/bin/updater \
-  vendor/actions/gs702a/proprietary/bin/applypatch:system/bin/applypatch \
   vendor/actions/gs702a/proprietary/xbin/e2fsck:system/xbin/e2fsck \
   vendor/actions/gs702a/proprietary/xbin/iostat:system/xbin/iostat \
   vendor/actions/gs702a/proprietary/xbin/mke2fs:system/xbin/mke2fs \
@@ -53,9 +50,8 @@ PRODUCT_COPY_FILES += \
   vendor/actions/gs702a/proprietary/lib/libGAL.so:obj/lib/libGAL.so \
 
 # HACK: Creat some intermediate files to link with
-$(shell mkdir -p out/target/product/gs702a/obj/SHARED_LIBRARIES/libalc_intermediates)
-$(shell mkdir -p out/target/product/gs702a/obj/SHARED_LIBRARIES/libGAL_intermediates)
-$(shell mkdir -p out/target/product/gs702a/obj/SHARED_LIBRARIES/libsurfaceflinger_intermediates)
-$(shell touch out/target/product/gs702a/obj/SHARED_LIBRARIES/libalc_intermediates/export_includes)
+$(shell mkdir -p out/target/product/gs702a/obj/SHARED_LIBRARIES/libalc_intermediates) \
+$(shell mkdir -p out/target/product/gs702a/obj/SHARED_LIBRARIES/libGAL_intermediates) \
+$(shell mkdir -p out/target/product/gs702a/obj/SHARED_LIBRARIES/libsync_intermediates) \
+$(shell touch out/target/product/gs702a/obj/SHARED_LIBRARIES/libalc_intermediates/export_includes) \
 $(shell touch out/target/product/gs702a/obj/SHARED_LIBRARIES/libGAL_intermediates/export_includes)
-$(shell touch out/target/product/gs702a/obj/SHARED_LIBRARIES/libsurfaceflinger_intermediates/export_includes)
